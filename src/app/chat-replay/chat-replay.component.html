@@ -1,0 +1,40 @@
+<div *ngFor="let item of transcripts">
+  <div class="wc-message-wrapper list" *ngIf="item.type == 'message' && item.from.role == 'user'">
+    <div class="wc-message wc-message-from-me">
+      <div class="wc-message-content">
+        <svg xmlns="http://www.w3.org/2000/svg" class="wc-message-callout">
+          <path class="point-left" d="m 0 6 l 6 6 v -12 Z" />
+          <path class="point-right" d="m 6 6 l -6 6 v -12 Z" />
+        </svg>
+        <div>
+          <span class="format-plain"><span>
+              {{item.text}}
+              <br></span></span>
+        </div>
+      </div>
+    </div>
+    <div class="wc-message-from wc-message-from-me">
+      <span>
+        {{item.from.name}}
+      </span>
+    </div>
+  </div>
+  <div class="wc-message-wrapper list" *ngIf="item.type == 'message' && item.from.role == 'bot'">
+    <div class="wc-message wc-message-from-bot">
+      <div class="wc-message-content"><svg xmlns="http://www.w3.org/2000/svg" class="wc-message-callout">
+          <path class="point-left" d="m 0 6 l 6 6 v -12 Z" />
+          <path class="point-right" d="m 6 6 l -6 6 v -12 Z" /></svg>
+        <div>
+          <div class="format-markdown">
+            {{item.text}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wc-message-from wc-message-from-bot">
+      <span>
+        {{item.from.name}}
+      </span>
+    </div>
+  </div>
+</div>

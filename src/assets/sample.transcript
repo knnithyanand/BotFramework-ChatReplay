@@ -1,0 +1,145 @@
+[
+  {
+    "conversation": {
+      "id": "hHQvRm4y8+FTcE43e9QLD8hOo8M="
+    },
+    "id": "1",
+    "timestamp": "2018-10-12T04:59:41.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "AclSZ90pcrwprdJDsFqNUU1RDWg=",
+        "name": "Demo Bot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "hHQvRm4y8+FTcE43e9QLD8hOo8M="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "AclSZ90pcrwprdJDsFqNUU1RDWg=",
+      "name": "Demo Bot",
+      "role": "bot"
+    },
+    "text": "Is there anything else that I can help you with?",
+    "timestamp": "2018-10-12T04:59:43.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "hHQvRm4y8+FTcE43e9QLD8hOo8M="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "AclSZ90pcrwprdJDsFqNUU1RDWg=",
+      "name": "Demo Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "No, I'm good for now. Thanks again!",
+    "timestamp": "2018-10-12T05:01:45.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "hHQvRm4y8+FTcE43e9QLD8hOo8M="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "AclSZ90pcrwprdJDsFqNUU1RDWg=",
+      "name": "Demo Bot",
+      "role": "bot"
+    },
+    "text": "Happy to help",
+    "timestamp": "2018-10-12T05:02:47.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "hHQvRm4y8+FTcE43e9QLD8hOo8M="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "AclSZ90pcrwprdJDsFqNUU1RDWg=",
+      "name": "Demo Bot",
+      "role": "bot"
+    },
+    "text": "Was I assistance helpful?",
+    "timestamp": "2018-10-12T05:02:49.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "hHQvRm4y8+FTcE43e9QLD8hOo8M="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "AclSZ90pcrwprdJDsFqNUU1RDWg=",
+      "name": "Demo Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "Yes, I'm glad that you could answer all my quries",
+    "timestamp": "2018-10-12T05:03:51.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "content": {}
+      }
+    ],
+    "conversation": {
+      "id": "hHQvRm4y8+FTcE43e9QLD8hOo8M="
+    },
+    "id": "7",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "AclSZ90pcrwprdJDsFqNUU1RDWg=",
+      "name": "Demo Bot",
+      "role": "bot"
+    },
+    "text": "",
+    "timestamp": "2018-10-12T05:04:53.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]
